@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز حمامة حنين للتكوين في التفصيل و التصميم</title>
+    <!-- رابط Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- رابط خطوط Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* تنسيق الجسم */
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* تنسيق شريط التنقل */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        /* تنسيق الأزرار في شريط التنقل */
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            background-color: #555;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* تأثير التمرير فوق الأزرار */
+        nav a:hover {
+            background-color: black;
+            transform: scale(1.1);
+        }
+
+        /* تنسيق الأيقونات في الأزرار */
+        nav a i {
+            margin-left: 5px;
+            font-size: 18px;
+        }
+
+        /* تنسيق المحتوى */
+        #home {
+            padding: 80px 20px 20px; /* إضافة مساحة لتفادي تداخل مع شريط التنقل */
+            text-align: center;
+        }
+
+        /* تنسيق قسم المعلومات */
+        #info {
+            padding: 20px;
+            background-color: #eee;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        #info h2 {
+            margin-bottom: 10px;
+            color: #007BFF;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #info p {
+            margin: 5px 0;
+            color: #333;
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        #info p strong {
+            color: #FF5722;
+        }
+
+        /* تنسيق قسم آراء العملاء */
+        #testimonials {
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        #testimonials h2 {
+            margin-bottom: 10px;
+            color: #007BFF;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #testimonials .testimonial {
+            margin: 10px 0;
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        /* تنسيق قسم الأسئلة المتكررة */
+        #faq {
+            padding: 20px;
+            background-color: #eee;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        #faq h2 {
+            margin-bottom: 10px;
+            color: #007BFF;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #faq details {
+            margin-bottom: 10px;
+            text-align: right;
+        }
+
+        #faq details summary {
+            font-weight: bold;
+            font-family: 'Tajawal', sans-serif;
+            cursor: pointer;
+        }
+
+        #faq details p {
+            margin: 10px 0 0;
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        /* تنسيق قسم الخريطة */
+        #map {
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        #map h2 {
+            margin-bottom: 10px;
+            color: #007BFF;
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav>
+        <a href="#home"><i class="fa-solid fa-house"></i> الصفحة الرئيسية</a>
+        <a href="https://www.facebook.com/YourFacebookPage" target="_blank"><i class="fa-brands fa-facebook"></i> صفحتنا على الفايسبوك</a>
+        <a href="https://www.instagram.com/YourInstagramPage" target="_blank"><i class="fa-brands fa-instagram"></i> صفحتنا على الانستجرام</a>
+        <a href="https://www.tiktok.com/@YourTikTokPage" target="_blank"><i class="fa-brands fa-tiktok"></i> صفحتنا على التيك توك</a>
+    </nav>
+
+    <!-- محتوى الصفحة -->
+    <div id="home">
+        <h1>مرحباً بكم في مركز حمامة حنين للتكوين في التفصيل و التصميم</h1>
+        <p>نقدم دورات متميزة في التفصيل والخياطة والتصميم بمختلف المستويات.</p>
+    </div>
+
+    <!-- قسم المعلومات -->
+    <div id="info">
+        <h2>معلومات عن المركز</h2>
+        <p><strong>موقع المركز:</strong> الجزائر، ولاية بومرداس، بلدية خميس الخشنة</p>
+        <p><strong>للتواصل معنا:</strong></p>
+        <p><strong>رقم الهاتف:</strong> 0792866498</p>
+        <p><strong>البريد الإلكتروني:</strong> KIouahanine@gmail.com</p>
+        <p><strong>ساعات العمل:</strong> من الأحد إلى الخميس، من الساعة 9 صباحاً حتى 5 مساءً</p>
+        <p><strong>خدماتنا:</strong> نقدم دورات تدريبية في التفصيل والخياطة والتصميم بجميع المستويات، مع شهادات مشاركة غير معتمدة.</p>
+    </div>
+
+<!-- قسم آراء العملاء -->
+<div id="testimonials">
+    <h2>آراء العملاء</h2>
+    <div class="testimonials-grid">
+        <div class="testimonial">
+            <img src="customer1.jpg" alt="Customer 1">
+            <p><strong>عميل 1:</strong> تجربة رائعة! جودة التدريب ممتازة.</p>
+        </div>
+        <div class="testimonial">
+            <img src="customer2.jpg" alt="Customer 2">
+            <p><strong>عميل 2:</strong> استفدت كثيرًا من الدورات، أوصي بها للجميع.</p>
+        </div>
+        <div class="testimonial">
+            <img src="customer3.jpg" alt="Customer 3">
+            <p><strong>عميل 3:</strong> المدربة متمكنة والمحتوى غني ومفيد.</p>
+        </div>
+        <!-- يمكنك إضافة المزيد من العملاء هنا -->
+    </div>
+</div>
+<!-- قسم معرض اعمال الطالبات -->
+<div id="student-works" style="padding: 20px; background-color: #eee; text-align: center; margin-top: 20px; border-radius: 10px;">
+    <h2 style="margin-bottom: 10px; color: #007BFF; font-family: 'Roboto', sans-serif;">اعمال الطالبات</h2>
+    <div class="works-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+        <!-- مثال لعمل طالبة -->
+        <div class="work-item" style="background-color: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+            <img src="work1.jpg" alt="عمل طالبة 1" style="width: 100%; border-radius: 10px; margin-bottom: 10px;">
+            <p style="color: #333; margin: 0;"><strong style="color: #FF5722;">طالبة 1:</strong> عمل من قبل المتربصة "سجى سجى " المتمدرسة في المستوى الثاني في التدريس عن بعد </p>
+        </div>
+        <div class="work-item" style="background-color: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+            <img src="work2.jpg" alt="عمل طالبة 2" style="width: 100%; border-radius: 10px; margin-bottom: 10px;">
+            <p style="color: #333; margin: 0;"><strong style="color: #FF5722;">طالبة 2:</strong> وصف قصير للعمل هنا.</p>
+        </div>
+        <div class="work-item" style="background-color: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+            <img src="work3.jpg" alt="عمل طالبة 3" style="width: 100%; border-radius: 10px; margin-bottom: 10px;">
+            <p style="color: #333; margin: 0;"><strong style="color: #FF5722;">طالبة 3:</strong> وصف قصير للعمل هنا.</p>
+        </div>
+        <!-- يمكنك إضافة المزيد من أعمال الطالبات هنا -->
+    </div>
+</div>
+
+<style>
+    /* تنسيق قسم آراء العملاء */
+    #testimonials {
+        padding: 20px;
+        background-color: #f7f7f7;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #testimonials h2 {
+        margin-bottom: 20px;
+        color: #007BFF; /* لون العنوان */
+    }
+
+    /* تنسيق شبكة آراء العملاء */
+    .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    /* تنسيق كل رأي */
+    .testimonial {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .testimonial img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .testimonial p {
+        color: #333;
+        margin: 0;
+    }
+
+    .testimonial strong {
+        color: #FF5722;
+    }
+</style>
+
+    <!-- قسم الأسئلة المتكررة -->
+    <div id="faq">
+        <h2>الأسئلة المتكررة</h2>
+        <details>
+            <summary>ما هي مدة الدورة؟</summary>
+            <p>مدة الدورة تعتمد على المستوى المختار، وتتراوح بين شهرين إلى ستة أشهر.</p>
+        </details>
+        <details>
+            <summary>هل الشهادات معتمدة؟</summary>
+            <p>لا، الشهادات هي شهادات مشاركة غير معتمدة.</p>
+        </details>
+        <details>
+            <summary>هل يمكنني الحضور عبر الإنترنت؟</summary>
+            <p>نعم، نوفر دورات عبر الإنترنت بالإضافة إلى الحضور الشخصي.</p>
+        </details>
+    </div>
+    
+    <!-- قسم الخريطة -->
+    <div id="map">
+        <h2>موقعنا على الخريطة</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.528343022107!2d3.264953815258501!3d36.68213257997121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb773a1b2b1f7%3A0x94b6e8a1ad13e08c!2sYour%20Location!5e0!3m2!1sen!2s!4v1693321671334!5m2!1sen!2s" 
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+   
+  <!-- زر العودة إلى الأعلى -->
+<a href="#" class="back-to-top" id="backToTop"><i class="fa-solid fa-arrow-up"></i></a>
+<script>
+    // احصل على عنصر الزر
+    const backToTopButton = document.getElementById('backToTop');
+
+    // تابع التمرير
+    window.addEventListener('scroll', () => {
+        // تحقق من موقع التمرير
+        if (window.scrollY > 200) {
+            backToTopButton.classList.add('show');
+        } else {
+            backToTopButton.classList.remove('show');
+        }
+    });
+
+    // تابع النقر على الزر
+    backToTopButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
+</body>
+</html>
+
+
+
+
+
+

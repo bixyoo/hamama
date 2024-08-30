@@ -1,0 +1,82 @@
+/* تنسيق الجسم */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* تنسيق شريط التنقل */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* تنسيق الأزرار في شريط التنقل */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    background-color: #555;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* تأثير التمرير فوق الأزرار */
+nav a:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+
+/* تنسيق الصور في الأزرار */
+nav a img {
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+/* تنسيق المحتوى */
+#home {
+    padding: 80px 20px 20px; /* إضافة مساحة لتفادي تداخل مع شريط التنقل */
+    text-align: center;
+}
+
+
+/* تنسيق زر العودة إلى الأعلى */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 24px;
+    display: none; /* مخفي افتراضياً */
+    z-index: 1000;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* إظهار الزر عند التمرير لأسفل */
+.show {
+    display: block;
+}
